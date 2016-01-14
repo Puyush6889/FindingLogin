@@ -217,8 +217,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 goToEnd();
             }
 
+
         }
     }
+
     /**
      * goes to the end activity
      */
@@ -425,9 +427,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             mAuthTask = null;
             showProgress(false);
         }
-
     }
-
-
+    public void firstGuess(View view)
+        {
+            Intent intent = new Intent(this, Activity1.class);
+            startActivity(intent);
+            finish();
+        }
 }
 

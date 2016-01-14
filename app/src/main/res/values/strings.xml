@@ -25,4 +25,5 @@
     <string name="Winning_Statement">You Have Won the Game!!!</string>
     <string name="edit_mesage">Enter an Item</string>
     <string name="add">Add Item</string>
+    <string name="title_activity_1">Activity1</string>
 </resources>
